@@ -1,0 +1,2 @@
+1.) What happens when you initialize a repository? Why do you need to do it?
+- Initializing a git repo creates a place where you can start committing new versions of your files and tracking any changes that have been made, or bugs that have been introduced. You need to this for the same reason, to track any change made or to revert any bugs that may have been introduced by incorrect code.

@@ -1,0 +1,21 @@
+1.) How did viewing a diff between two versions of a file help you see the bug that was introduced?
+- It displayed the differences of each file 1 underneath eachother and I could then work out the difference by comparing them both together
+
+2.) How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+- If something goes wrong you can go back and see a previous version where the issue did not exist...
+- You can see the original steps taken and then see what the code looks like now and see how you can make it cleaner, shorter and more efficient.
+
+3.) What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+- You may save more or less commits manually, you may save a lot more smaller commits, or a lot more larger ones manually, on the other hand automatically the cons are that commits might not make sense or the changes saved may not have been completed yet, leaving the possibility of 2 commits quite close together depending on the time of the manual commit and then the automatic commt. 
+
+4.) Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+- Developers using git need a number of files to be changed in order to make the change online... Google Docs only really handles files that function independantly, so there is no reason to all multiple saving - it will save only 1 file when it is open then closed, and will save the next when that is open and then closed.
+
+5.) How can you use the commands git log and git diff to view the history of files?
+- You can use git log to see when commits were updated and a small line or title that explains what was done in the commmt, then using git diff you can compare 2 commits and see what additions and deletions of code were made between the different version...
+
+6.) How might using version control make you more confident to make changes that could break something?
+- The fact that you can always revert back to a version where the break didn't occur, so as not too lose your entire work - just a small piece of it when reverting back - similar to backing up your PC and having to revert back to an older backed up version of it - you might be missing a program or two, but the error/virus is gone!
+
+7.) Now that you have your workspace set up, what do you want to try using Git for?
+- Learning more tutorials through Udacity and then using Git for creating and improving my website creation skills.
