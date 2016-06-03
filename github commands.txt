@@ -1,0 +1,43 @@
+github commands
+
+From Lesson 1
+
+q |    exit git log!
+git log  |    List the commits and show which files have changed
+git log --stat  |    Show addition information about the commits
+git log --graph --oneline master coins	|	Shows timeline of commits vs different branches
+git diff id1 id2  |    Compare two commits
+git clone  |    Create a local copy/clone from the repository
+git config --global color.ui auto |    get colored diff output
+git checkout  |    Shows a previous version of the file. This is not a checkout to edit like in SVN or TFS!
+git checkout <branch-name>	|	Switches to another named branch, rather than a commit
+git branch 	|	Lists the different branches available for you to see
+git branch (branch name)	|	Creates a new branch
+git checkout -b <new-branch-name>	| Creates a new branch and checks it out in one commend (rather than running them seperately)
+
+git reset --hard	|	Removes any changes you made to files that you do not want to add/commit
+git status	|	Shows what files/commits if any are waiting to be added/commited
+git add (filenames)	|	Add file to the staging area ready to commit - You can add a numer of files in one commit, or individualy
+git commit 	|	Commits the files added to the staging area and you are required to give a name to the commit
+
+git show 	| 
+
+From Lesson 2
+
+git diff  |    Git diff without arguments is comparing the working directory with the staging area
+git diff --staged  |    Compare the staging area with the repository
+git checkout master  |    Restore the "Head" to the latest check-in (this will be part of a later lesson/module)
+git merge branch1 branch2  |    Merge two branches, branch2 get merged into branch1
+git branch -d name  |    Remove the branch with the specified name
+git show commitId  |    Show the changes made in this commit compared to the previous version. This is working even after merging.
+
+
+From Lesson 3
+
+ git clone https://github.com/adamsmith95/recipes.git 	|	clones the recipes repository to my local
+ git remote -v	| means verbose - so gives more information on the remote created
+
+Updated commands from Code Academy:
+git checkout HEAD filename: Discards changes in the working directory.
+git reset HEAD filename: Unstages file changes in the staging area.
+git reset SHA: Can be used to reset to a previous commit in your commit history.
