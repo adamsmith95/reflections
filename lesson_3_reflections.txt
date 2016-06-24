@@ -20,7 +20,10 @@ and what would be harder?
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
-    When you want to create a different feature or experimental branch to try/test out  a new features that might not ever be introduced - or a different langauge of your site.
+    When you want to create a different feature or experimental branch to try/test out a new features that might not ever be introduced - or a different langauge of your site.
+    This also means you can push a branch to your remote on github and then have a colleague check it out via a pull request and then see if it is suitable to be merged into the master copy.
+    - Benefits for working on a different branch is pull request notifications of any changes and not messing with the master copy.
+    - Benefits for working directly in master 
 
 
 Github commands
